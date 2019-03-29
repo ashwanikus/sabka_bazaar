@@ -244,7 +244,7 @@ input:focus ~ label,
 input:valid ~ label {
   top: -20px;
   font-size: 14px;
-  color: #5264ae;
+  color: #50dae4;
 }
 
 /* BOTTOM BARS ================================= */
@@ -260,7 +260,7 @@ input:valid ~ label {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #5264ae;
+  background: #50dae4;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -299,7 +299,7 @@ input:focus ~ .highlight {
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
   from {
-    background: #5264ae;
+    background: #50dae4;
   }
   to {
     width: 0;
@@ -308,7 +308,7 @@ input:focus ~ .highlight {
 }
 @-moz-keyframes inputHighlighter {
   from {
-    background: #5264ae;
+    background: #50dae4;
   }
   to {
     width: 0;
@@ -317,7 +317,7 @@ input:focus ~ .highlight {
 }
 @keyframes inputHighlighter {
   from {
-    background: #5264ae;
+    background: #50dae4;
   }
   to {
     width: 0;
