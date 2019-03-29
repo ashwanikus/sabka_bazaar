@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development --watch",
     "build": "webpack --mode production --watch",
-    "start": "http-server -a localhost -p 8000 -c-1 ./dist",
+    "start": "http-server -a localhost -p 8000 -o -c-1 ./dist",
     "webstart": "webpack-dev-server --mode development --watch"
   },
   "keywords": [],
